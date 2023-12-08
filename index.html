@@ -189,28 +189,28 @@
             <div id="w-node-debcaaaf-bc0e-984b-d6b1-75284ec6af53-860e45a1" class="numbers_item"><img
                 src="images/657284a2a970f11001669936_Vector.svg" loading="lazy" alt="" class="image-12">
               <div class="numbers_text_wrapper">
-                <div class="numbers_count_up _1300000">1,300,000</div>
+                <div class="numbers_count_up _1300000" id="count-live">0</div>
                 <div class="text-block-10">Lives committed to Christ</div>
               </div>
             </div>
             <div id="w-node-debcaaaf-bc0e-984b-d6b1-75284ec6af5a-860e45a1" class="numbers_item"><img
                 src="images/657284a2a970f11001669935_Vector-5.svg" loading="lazy" alt="" class="image-12">
               <div class="numbers_text_wrapper">
-                <div class="numbers_count_up _93732">93,732</div>
+                <div class="numbers_count_up _93732" id="count-disciple">0</div>
                 <div class="text-block-10">disciples worldwide</div>
               </div>
             </div>
             <div id="w-node-debcaaaf-bc0e-984b-d6b1-75284ec6af61-860e45a1" class="numbers_item"><img
                 src="images/657284a2a970f11001669931_Vector-2.svg" loading="lazy" alt="" class="image-12">
               <div class="numbers_text_wrapper">
-                <div class="numbers_count_up _200356">200,356</div>
+                <div class="numbers_count_up _200356" id="count-church">0</div>
                 <div class="text-block-10">Church members in Pakistan Network</div>
               </div>
             </div>
             <div id="w-node-debcaaaf-bc0e-984b-d6b1-75284ec6af68-860e45a1" class="numbers_item"><img
                 src="images/657284a2a970f1100166992f_Vector-4.svg" loading="lazy" alt="" class="image-12">
               <div class="numbers_text_wrapper">
-                <div class="numbers_count_up _22">22</div>
+                <div class="numbers_count_up _22" id="count-nation">0</div>
                 <div class="text-block-10">nations operating in a family paradigm</div>
               </div>
             </div>
@@ -218,16 +218,16 @@
                 src="images/657284a2a970f11001669933_Vector-1.svg" loading="lazy" alt="" class="image-12">
               <div class="numbers_text_wrapper">
                 <div class="wrapper_text_inline">
-                  <div class="numbers_count_up _15">15</div>
+                  <div class="numbers_count_up _15" id="count-book">0</div>
                   <div class="numbers_text"> BOOKS</div>
                 </div>
-                <div class="text-block-10">Translatedin over 15 languages</div>
+                <div class="text-block-10">Translated in over 15 languages</div>
               </div>
             </div>
             <div id="w-node-debcaaaf-bc0e-984b-d6b1-75284ec6af76-860e45a1" class="numbers_item bottom"><img
                 src="images/657284a2a970f11001669934_Vector-3.svg" loading="lazy" alt="" class="image-12">
               <div class="numbers_text_wrapper">
-                <div class="numbers_count_up _102">102</div>
+                <div class="numbers_count_up _102" id="count-impact">0</div>
                 <div class="text-block-10">Nations impacted by the Father’s love</div>
               </div>
             </div>
@@ -649,6 +649,44 @@
         lenis.start();
       }
     });
+  </script>
+  <script src="js/countUp.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+      const liveSub = {
+          enableScrollSpy: true,
+          duration: 6,
+      };
+      const numAnimLive = new countUp.CountUp("count-live", 1300000, liveSub);
+
+      const churchSub = {
+          enableScrollSpy: true,
+          duration: 5,
+      };
+      const numAnimChurch = new countUp.CountUp("count-church", 200356, churchSub);
+
+      const bookSub = {
+          enableScrollSpy: true,
+          duration: 3,
+      };
+      const numAnimBook = new countUp.CountUp("count-book", 15, bookSub);
+
+      const discipleSub = {
+          enableScrollSpy: true,
+          duration: 5,
+      };
+      const numAnimDisciple = new countUp.CountUp("count-disciple", 93732, discipleSub);
+
+      const nationSub = {
+          enableScrollSpy: true,
+          duration: 5,
+      };
+      const numAnimNation = new countUp.CountUp("count-nation", 22, nationSub);
+
+      const impactSub = {
+          enableScrollSpy: true,
+          duration: 3,
+      };
+      const numAnimImpact = new countUp.CountUp("count-impact", 102, impactSub);
   </script>
 </body>
 
