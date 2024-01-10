@@ -179,7 +179,7 @@ td, th {
 }
 
 @font-face {
-  font-family: lainweb-icons;
+  font-family: webflow-icons;
   src: url("data:application/x-font-ttf;charset=utf-8;base64,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") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -194,7 +194,7 @@ td, th {
   font-style: normal;
   font-weight: normal;
   line-height: 1;
-  font-family: lainweb-icons !important;
+  font-family: webflow-icons !important;
 }
 
 .w-icon-slider-right:before {
@@ -294,6 +294,93 @@ html[data-w-dynpage] [data-w-cloak] {
 
 .w-code-block {
   margin: unset;
+}
+
+.w-webflow-badge, .w-webflow-badge * {
+  z-index: auto;
+  visibility: visible;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0;
+  min-width: 0;
+  float: none;
+  clear: none;
+  box-shadow: none;
+  opacity: 1;
+  direction: ltr;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-style: inherit;
+  font-variant: inherit;
+  text-align: inherit;
+  letter-spacing: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  text-indent: 0;
+  text-transform: inherit;
+  text-shadow: none;
+  font-smoothing: auto;
+  vertical-align: baseline;
+  cursor: inherit;
+  white-space: inherit;
+  word-break: normal;
+  word-spacing: normal;
+  word-wrap: normal;
+  background: none;
+  border: 0 rgba(0, 0, 0, 0);
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  list-style-type: disc;
+  transition: none;
+  display: block;
+  position: static;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  overflow: visible;
+  transform: none;
+}
+
+.w-webflow-badge {
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .1);
+  visibility: visible !important;
+  z-index: 2147483647 !important;
+  color: #aaadb0 !important;
+  opacity: 1 !important;
+  width: auto !important;
+  height: auto !important;
+  background-color: #fff !important;
+  border-radius: 3px !important;
+  margin: 0 !important;
+  padding: 6px !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  position: fixed !important;
+  top: auto !important;
+  bottom: 12px !important;
+  left: auto !important;
+  right: 12px !important;
+  overflow: visible !important;
+  transform: none !important;
+}
+
+.w-webflow-badge > img {
+  visibility: visible !important;
+  opacity: 1 !important;
+  vertical-align: middle !important;
+  display: inline-block !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2442,6 +2529,7 @@ blockquote {
 .heading-4 {
   color: #98130d;
   font-size: 27px;
+  line-height: 1.8;
 }
 
 .track-horizontal-alt {
@@ -2750,18 +2838,22 @@ blockquote {
 
 .cards_image {
   width: 100%;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, .5) 4%, rgba(0, 0, 0, 0) 45%), url("../images/65815a4fdf2e4b2a744b04a0_Peace%20Award%201_Zubair%20%28El%20Hadis%20leader%20--%20Suadi%20Stream%20of%20Islam%29.webp");
-  background-position: 0 0, 50%;
-  background-size: auto, cover;
+  background-image: url("../images/659682c84bc3c62faf2369f2_Transforming%20Nation%20Large.webp");
+  background-position: 50%;
+  background-size: cover;
   padding-top: 66%;
 }
 
 .cards_image._1 {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, .5) 4%, rgba(0, 0, 0, 0) 45%), url("../images/657284a2a970f11001669951_1%20%281%29.webp");
+  background-image: url("../images/659682c7d2ae9c8d252acb88_Love%20of%20Nation%20Large.webp");
+  background-position: 50%;
+  background-size: cover;
 }
 
 .cards_image._2 {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, .5) 4%, rgba(0, 0, 0, 0) 45%), url("../images/65815a3d5f11a0fdf5d793ce_Cuba_2016-89.webp");
+  background-image: url("../images/659682c7530626847b5d89da_discipleship%20Large.webp");
+  background-position: 50%;
+  background-size: cover;
 }
 
 .bottom_text {
@@ -3208,7 +3300,7 @@ blockquote {
 .heading-6 {
   color: #000;
   font-size: 37px;
-  line-height: 36px;
+  line-height: 43px;
 }
 
 .spacer-medium {
@@ -5368,6 +5460,7 @@ blockquote {
   align-items: center;
   display: flex;
   position: absolute;
+  overflow: hidden;
 }
 
 .load-screen-panel {
@@ -5522,7 +5615,7 @@ blockquote {
 .hero_badge {
   z-index: 9;
   width: 39px;
-  height: 176px;
+  height: 199px;
   grid-column-gap: 7px;
   grid-row-gap: 7px;
   background-color: var(--gma-red);
@@ -5610,7 +5703,7 @@ blockquote {
 }
 
 .donate_text {
-  width: 14ch;
+  width: 16ch;
   transform-origin: 7%;
   color: var(--gma-white);
   font-size: .9em;
@@ -5731,6 +5824,10 @@ blockquote {
   -webkit-backdrop-filter: grayscale();
   backdrop-filter: grayscale();
   display: block;
+}
+
+.preloader_logo_fire {
+  position: absolute;
 }
 
 @media screen and (max-width: 991px) {
@@ -6813,7 +6910,7 @@ blockquote {
 
   .hero_badge {
     width: 35px;
-    height: 146px;
+    height: 160px;
   }
 
   .donate_text {
@@ -7314,7 +7411,7 @@ blockquote {
 
   .hero_badge {
     width: 29px;
-    height: 132px;
+    height: 145px;
     padding-bottom: .9rem;
     padding-left: .5rem;
   }
@@ -7337,9 +7434,13 @@ blockquote {
   }
 
   .bg_nav-mobile {
+    z-index: 0;
+    height: 117px;
     display: block;
-    top: -37px;
-    right: -884px;
+    top: -38px;
+    bottom: auto;
+    left: auto;
+    right: -4px;
   }
 }
 
